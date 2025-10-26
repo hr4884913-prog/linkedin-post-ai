@@ -18,7 +18,7 @@ if btn and prompt:
 )
 st.success(response.choices[0].message.content.strip())
         # openai.api_key = "sk-xxxxxxxxxx"
-        openai.api_key = "YAHAN-APNI-OPENAI-KEY-PASTE-KARO"
+        
         response = openai.ChatCompletion.create(
             model="gpt-3.5-turbo",
             messages=[
